@@ -1,0 +1,49 @@
+.flex-all-centre {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--main-bg-color);
+    color: white;
+    /* padding: 5px 10px;
+    margin: 17px 11px 10px; */
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    /* padding-top: 3px;
+
+    margin-top: 17px; */
+    padding: 3px 8px;
+margin: 15px 13px 12px;
+}
+
+.btn:hover {
+    /* font-weight: scale(1.1); */
+    font-weight: bold;
+
+}
+
+.my-1 {
+    margin: 3px 0;
+}
+
+.my-2 {
+    margin: 23px 0;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+h2:hover {
+    /* width: 23vw; */
+    /* height: 23vh; */
+    /* font-weight: 900; */
+    /* transform: scale(1.1 1.1); */
+    transform: scale(1.0);
+
+}

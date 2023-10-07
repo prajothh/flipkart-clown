@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Lato:wght@100&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color: #2874f0 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: var(--main-bg-color);
+  
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+
+   
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 89px;
+    padding: 0px 23px;
+}
+.logo:hover img {
+    
+   transform: scale(1.1);
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li {
+    padding: 0PX 18PX;
+    list-style: none;
+    
+   
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+      font-weight: bolder;
+      
+      
+  }
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+/* .container img{
+    border: 2px solid black; */
+/* } */
+.bc:hover img {
+    transform: scale(0.9);
+}
+.card{
+    max-width: 90vw;
+    margin: auto 89px;
+}
+.card h2{
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+}
+ 
+.card-item{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    font-family: 'Poppins';
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.card-item:hover{
+    font-weight: bolder;
+}
+.card-item:hover img{
+   transform: scale(1.1);
+   
+}
+
+
+
+
+.search{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 30vw;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+}
+.search input {
+    text-align: center;
+    margin: 0px 3px;
+    
+}
+.bc  {
+    margin: auto;
+   width: 70vw;
+   height: 350px; 
+  padding: 0px 157px;
+  margin: 10px ;
+}
+
+footer{
+   
+    background: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+}
+footer:hover{
+    font-weight: bolder;
+}

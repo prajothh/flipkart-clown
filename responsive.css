@@ -1,0 +1,17 @@
+ /* @media screen and (max-width:400px){
+    body{
+        background-color: red;
+    }
+    nav{
+        
+        flex-direction: column;
+        
+    }
+    .logo img{
+        justify-content: center;
+        margin: 12px 0px ;
+    }
+    nav ul{
+        justify-content: center;
+    }
+ }   */
